@@ -1,0 +1,147 @@
+<!doctype html>
+ <html lang="en">
+   <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+     crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+     crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+     \crossorigin="anonymous"></script>
+     <link rel="stylesheet" type="text/css" href="spiritansforlifeadmin.css">
+     <script src="https://kit.fontawesome.com/53ef80b314.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="sidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+  <div class="sidebar-header">
+
+  <h4><img class="prolifelogo" src="IMG-20201202-WA0032admin.jpg"></img>spiritansforlife</h4></div>
+
+
+  <div>
+    <ul class="list-unstyled components">
+      <li><i class="fa fa-pen"><a href="admincreatepost.html">CREATE</a></i></li>
+      <li><i class="fa fa-user"><a href="adminmanagepost.html">MANAGE</a></i></li>
+
+    </ul>
+    <div>
+    <nav class="slogan" style="position:relative;background-color:#990099;"> Life is sacred! Life is precious!! Defend it!!!</nav></div>
+    <div style="background-color:#990099;text-align:center;"><p>Designed by Okika Johnpaul</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="content">
+  <div class="body-text wrapper">
+  <div id="main">
+  <nav class="buttonlogo">
+  <div><button class="button openbtn" onclick="openNav()" type="button" >
+  <i class="#"><img class="prolifelogo" src="IMG-20201202-WA0033admin.jpg"></img></i></button></div>
+  <div class="navlogo"><p>Spiritansforlife.<small>com</small></p></div></nav>
+
+        <div class="table-content"><br><br>
+        <nav class="page-title">CREATE POST</nav>
+
+
+        <div>
+        <form action="admincreatepost.html" method="post">
+
+        <div class="form-group container">
+        <label>NAME</label>
+        <div class="col-sm-10">
+        <input type="text" class="form-control title" id="text" placeholder="WRITER'S NAME">
+        </div>
+        </div>
+
+        <div>
+        <div class="form-group container">
+        <label>TITLE</label>
+        <div class="col-sm-10">
+        <input type="text" class="form-control title" id="title" placeholder="INPUT ARTICLE TITLE HERE">
+        </div>
+        </div>
+
+        <div>
+        <div class="form-group container">
+        <label>BODY</label><br>
+        <textarea name="BODY" class="form-control" id="body"></textarea>
+        </div>
+        </div>
+
+
+        <!-- images should be linked to image1 in articlereading.html -->
+        <div>
+        <input type="file">image1</input>
+        </div>
+
+
+        <!-- images should be linked to image2 in articlereading.html -->
+        <div>
+        <input type="file">image2</input>
+        </div><br><br><br>
+
+        <!--related  articles would contain image and link, just afer every post on the frontend (index.html)-->
+        <div>
+        <label name>RELATED ARTICLES</label><hr>
+
+        </div>
+
+        <div>
+
+        <div class="form-group container">
+        <label>TITLE 1</label>
+        <div class="col-sm-10">
+        <input type="text" class="form-control title" id="title" placeholder="Input article link here"></input>
+        </div>
+        </div>
+        <input type="file">image1</input><hr>
+
+        <div class="form-group container">
+        <label>TITLE 2</label>
+        <div class="col-sm-10">
+        <input type="text" class="form-control title" id="title" placeholder="Input article link here"></input>
+        </div>
+        </div>
+        <input type="file">image2</input><hr>
+
+        <div class="form-group container">
+        <label>TITLE 3</label>
+        <div class="col-sm-10">
+        <input type="text" class="form-control title" id="title" placeholder="Input article lin here"></input>
+        </div>
+        </div>
+        <input type="file">image3</input><hr>
+
+        </div><br>
+
+        <div>
+        <button type="submit" class="btnsubmit1 btn-big">POST</button>
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+
+        </form>
+
+
+
+        </div>
+        </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+        <script src="spiritansforlifeadmin.js" ></script>
+  </body>
+</html>
