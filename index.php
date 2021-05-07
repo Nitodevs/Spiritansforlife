@@ -1,0 +1,54 @@
+<!doctype html>
+ <html lang="en">
+   <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+     crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+     crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+     \crossorigin="anonymous"></script>
+     <link rel="stylesheet" type="text/css" href="spiritansforlifeadmin.css">
+     <script src="spiritansforlifeadmin.js" ></script>
+     <script src="https://kit.fontawesome.com/53ef80b314.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="sidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+  <div class="sidebar-header">
+
+  <h4><img class="prolifelogo" src="IMG-20201202-WA0032admin.jpg"></img>spiritansforlife</h4></div>
+
+
+  <div>
+    <ul class="list-unstyled components">
+      <li><i class="fa fa-pen"><a href="admincreatepost.html">CREATE</a></i></li>
+      <li><i class="fa fa-user"><a href="adminmanagepost.html">MANAGE</a></i></li>
+
+    </ul>
+    <div>
+    <nav class="slogan" style="position:relative;background-color:#990099;"> Life is sacred! Life is precious!! Defend it!!!</nav></div>
+    <div style="background-color:#990099;text-align:center;"><p>Designed by Okika Johnpaul</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="content">
+  <div class="body-text wrapper">
+  <div id="main">
+  <nav class="buttonlogo">
+  <div><button class="button openbtn" onclick="openNav()" type="button" >
+  <i class="#"><img class="prolifelogo" src="IMG-20201202-WA0033admin.jpg"></img></i></button></div>
+  <div class="navlogo"><p>Spiritansforlife.<small>com</small></p></div></nav>
+
+
+  </body>
+</html>
