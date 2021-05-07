@@ -31,13 +31,13 @@
   <div>
     <ul class="list-unstyled components">
       <li><i class="fa fa-pen"><a href="admincreatepost.html">CREATE</a></i></li>
-      <li><i class="fa fa-user"><a href="adminmanagepost.html">MANAGE</a></i></li>
-
+      <li><i class="fa fa-user"><a href="adminmanagepost.html">MANAGE</a></i></li
     </ul>
     <div>
     <nav class="slogan" style="position:relative;background-color:#990099;"> Life is sacred! Life is precious!! Defend it!!!</nav></div>
     <div style="background-color:#990099;text-align:center;"><p>Designed by Okika Johnpaul</p>
     </div>
+       
   </div>
   </div>
 
@@ -48,7 +48,9 @@
   <div><button class="button openbtn" onclick="openNav()" type="button" >
   <i class="#"><img class="prolifelogo" src="IMG-20201202-WA0033admin.jpg"></img></i></button></div>
   <div class="navlogo"><p>Spiritansforlife.<small>com</small></p></div></nav>
-
+ 
+   
+   <!-- if you can add security system to this page. it would be nice...just to ensure security-->
 
   </body>
 </html>
